@@ -57,7 +57,7 @@ export class data extends Component {
                 </div>
                 <div className="total-item">
                     <h4>Cart Total</h4> <h4>{(this.getTotal()).toFixed(3)} KWD</h4>
-                    <h4>Delivary charges</h4> <h4>{(this.getDeliveryCharge()).toFixed(3)} KWD</h4>
+                    <h4>Delivery charges</h4> <h4>{(this.getDeliveryCharge()).toFixed(3)} KWD</h4>
                     <h4>Total</h4> <h4>{(this.getTotal() + this.getDeliveryCharge()).toFixed(3)} KWD</h4>
                     <button className="add-items"> + Add more  </button>
                 </div>
